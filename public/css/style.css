@@ -1,10 +1,10 @@
-/****************************************
-*          Basic Page Styles  #1FCA23          *
-****************************************/
-
 html{
 	height: 100%;
 	font-size: 18px;
+	background-image: url("https://image.freepik.com/free-vector/gradient-geometric-background_52683-54352.jpg");
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover;
 	background-color: #1FCA23;
 	font-family: 'Walter Turncoat', cursive;
 }
@@ -28,9 +28,6 @@ body{
 b{
 	font-size: 1.3em;
 }
-/****************************************
-*            Header Section             *
-****************************************/
 header{
 	position: relative;
 	height: 80px;
@@ -71,9 +68,6 @@ p.dir{
 	top: 25px;
 }
 
-/****************************************
-*       Snake Name Form Overlay         *
-****************************************/
 .overlay, #countdown{
 	position: absolute;
 	top: 50%;
@@ -138,7 +132,7 @@ p.dir{
 	font-size: 5em;
 	font-weight: 800;
 	text-align: center;
-	color: #f11;
+	color: rgb(255, 176, 5);
     opacity: 1;
     transition: opacity 1.5s;
     -moz-transition: opacity 1.5s;
@@ -149,9 +143,6 @@ p.dir{
 	opacity: 0 !important;
 }
 
-/****************************************
-*             end screen baby           *
-****************************************/
 #endscreen{
 	display: none;
 	text-align: center;
